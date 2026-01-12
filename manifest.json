@@ -3,7 +3,6 @@
   "name": "SoundCloud Artwork Getter",
   "version": "1.0",
   "description": "Chrome Extention for Getting Artwork from SoundCloud.",
-  "author": "@Harxxki",
   "action": {},
   "background": {
     "service_worker": "background.js"
