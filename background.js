@@ -83,7 +83,7 @@ const getImage = () => {
         const item = new ClipboardItem({ 'image/png': pngBlob })
         await navigator.clipboard.write([item])
         URL.revokeObjectURL(img.src)
-        showToast('Artwork copied to clipboard.', true)
+        showToast('copied!', true)
       } catch (err) {
         console.error('SoundCloud Coverart Getter error:', err)
         showToast('Failed to copy artwork.', false)
